@@ -25,6 +25,12 @@ export default function RootLayout({
               <span className="font-bold text-xl">Groq PDF Assistant</span>
             </Link>
             <div className="flex flex-1 items-center justify-end space-x-4">
+              <Link href="/query">
+                <Button variant="ghost">Query</Button>
+              </Link>
+              <Link href="/summarize">
+                <Button variant="ghost">Summarize</Button>
+              </Link>
               <Link href="/about">
                 <Button variant="ghost">About</Button>
               </Link>
