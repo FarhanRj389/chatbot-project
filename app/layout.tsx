@@ -3,6 +3,7 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -22,7 +23,8 @@ export default function RootLayout({
         <nav className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
           <div className="container flex h-14 items-center">
             <Link href="/" className="mr-6 flex items-center space-x-2">
-              <span className="font-bold text-xl">Groq PDF Assistant</span>
+            <Image src="/logo.png" alt="Groq PDF Assistant" width={32} height={32} />
+              <span className="font-bold text-xl">FASTIAN'S PDF Utility</span>
             </Link>
             <div className="flex flex-1 items-center justify-end space-x-4">
               <Link href="/query">

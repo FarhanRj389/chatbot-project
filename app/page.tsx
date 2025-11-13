@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container mx-auto px-4 py-16">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">Groq PDF Assistant</h1>
+        <h1 className="text-4xl font-bold mb-4">FASTIAN'S PDF Utility</h1>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
           Upload PDFs and interact with them using AI. Ask questions or generate summaries with customizable options.
         </p>
@@ -21,7 +21,7 @@ export default function Home() {
                 <CardTitle>Query PDFs</CardTitle>
               </div>
               <CardDescription>
-                Upload PDFs and ask questions about their content. Get instant answers powered by Groq AI.
+                Upload PDFs and ask questions about their content. Get instant answers powered by FASTIAN'S AI.
               </CardDescription>
             </CardHeader>
             <CardContent>
