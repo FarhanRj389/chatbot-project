@@ -13,7 +13,7 @@ export default function AboutPage() {
         <CardContent>
           <p className="text-muted-foreground">
           FASTIAN'S PDF Utility is your go-to solution for all PDF-related tasks. Whether you need to summarize lengthy documents or extract specific information, our tool is designed to make your life easier.
-          </p><br />
+          </p>
           <p className="text-muted-foreground">Our Summarization App is designed to enhance productivity by transforming lengthy texts into concise, easy-to-understand summaries. Utilizing advanced natural language processing techniques, the app identifies key points, eliminates redundant information, and delivers accurate summaries that preserve the original meaning. In addition to summarizing content, the app offers a powerful query search option, allowing users to instantly find specific information within large documents. Whether you're reviewing articles, research papers, or meeting notes, our tool helps you save time, stay informed, and access relevant content with ease.</p>
         </CardContent>
       </Card>
