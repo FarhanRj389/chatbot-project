@@ -24,7 +24,7 @@ export default function RootLayout({
           <div className="container flex h-14 items-center justify-center">
             <Link href="/" className="flex flex-col items-center space-x-2 ">
               <Image src="/logo.png" alt="FASTIAN'S PDF Utility" width={100} height={100} />
-              <span className="font-bold text-xl text-white">FASTIAN'S PDF Utility</span>
+              <span className="font-bold text-xl text-white">FASTIAN&apos;S PDF Utility</span>
             </Link>
           </div>
           <div className="flex flex-1 items-center justify-center space-x-4 pt-14">
